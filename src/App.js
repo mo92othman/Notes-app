@@ -30,7 +30,7 @@ export default function App() {
     if (!currentNoteId) {
       setCurrentNoteId(notes[0]?.id);
     }
-  }, [notes]);
+  }, [notes, currentNoteId]);
 
   async function createNewNote() {
     const newNote = {
