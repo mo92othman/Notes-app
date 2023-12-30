@@ -138,3 +138,17 @@ button:focus {
   align-items: center;
   background-color: whitesmoke;
 }
+
+.delete-btn {
+  background-color: lightgray;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.delete-btn:hover {
+  background-color: darkgray;
+}
